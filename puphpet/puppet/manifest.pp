@@ -1148,3 +1148,10 @@ if hash_key_equals($rabbitmq_values, 'install', 1) {
   }
 }
 
+
+# Begin nodejs
+
+class { 'nodejs':
+  version    => 'stable',
+  target_dir => '/bin',
+}

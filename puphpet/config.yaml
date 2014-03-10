@@ -63,8 +63,8 @@ mailcatcher:
 apache:
     install: '1'
     settings:
-        user: www-data
-        group: www-data
+        user: vagrant
+        group: vagrant
         default_vhost: true
         manage_user: false
         manage_group: false
