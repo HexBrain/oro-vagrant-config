@@ -10,11 +10,12 @@ Requirements
 
 Configuration settings
 --
-## OS
+## Box
 - Debian Wheezy 7.2 x64
 - Box IP 192.168.56.102
 - Forwarded SSH port (host / box) 5276 / 22
 - Synced folder ./ -> /var/www
+- Synced Folder Type: rsync (be careful to sync your files manually you need to run `vagrant rsync` or `vagrant rsync-auto` to automate this process) 
 
 ## Apache 2.x
 - Virtual Host oro.dev -> /var/www/oro/web
