@@ -34,14 +34,15 @@ Configuration settings
 - xdebug
 
 ### Settings
-display_errors = On
-error_reporing = -1
-memory_limit = 512M
-short_open_tag = Off
-max_execution_time = 300
-xdebug.remote_enable = 1
-xdebug.remote_port = 9000
-xdebug.max_nesting_level = 300
+
+- display_errors = On
+- error_reporing = -1
+- memory_limit = 512M
+- short_open_tag = Off
+- max_execution_time = 300
+- xdebug.remote_enable = 1
+- xdebug.remote_port = 9000
+- xdebug.max_nesting_level = 300
 
 ## MySQL 5.5
 - username = orocrm
