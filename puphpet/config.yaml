@@ -133,7 +133,7 @@ mysql:
         5Dm1fehvajrO:
             grant:
                 - ALL
-            name: orocrm
+            name: oro_crm
             host: localhost
             user: orocrm
             password: '123'
