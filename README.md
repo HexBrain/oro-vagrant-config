@@ -15,8 +15,7 @@ Configuration settings
 - Box IP 192.168.56.102
 - Forwarded SSH port (host / box) 5276 / 22
 - Synced folder ./ -> /var/www
-- Synced Folder Type: rsync (be careful to sync your files manually you need to run `vagrant rsync` or `vagrant rsync-auto` to automate this process) 
-- Warning, if you run commands like php app/console generate:bundle in the box ssh and you want to sync changes back to host folder, this can be done with `rsync -zvr vagrant@oro.dev:/var/www/oro/ ./oro/`, running `vagrant rsync` before this will wipe out the changes
+- Synced Folder Type: nfs (in case of rsync type you need to sync your files manually by running `vagrant rsync` or `vagrant rsync-auto` to automate this process. **Warning**, if you run commands like php app/console generate:bundle in the box ssh and you want to sync changes back to host folder, this can be done with `rsync -zvr vagrant@oro.dev:/var/www/oro/ ./oro/`, running `vagrant rsync` before this will wipe out the changes)
 
 ## Apache 2.x
 - Virtual Host oro.dev -> /var/www/oro/web
